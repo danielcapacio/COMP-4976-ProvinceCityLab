@@ -1,5 +1,5 @@
 ﻿enable-migrations -ContextTypeName ClientContext -MigrationsDirectory Migrations\ClientMigrations
 
-add-migration -ConfigurationTypeName CodeFirstInc.Migrations.ClientMigrations.Configuration "PInitialCreate"
+add-migration -ConfigurationTypeName COMP4976ProvinceCityLab.Migrations.ClientMigrations.Configuration "PInitialCreate"
 
 update-database -ConfigurationTypeName CodeFirstInc.Migrations.ClientMigrations.Configuration
