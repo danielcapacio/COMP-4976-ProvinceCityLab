@@ -29,5 +29,9 @@ namespace COMP4976ProvinceCityLab.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<COMP4976ProvinceCityLab.Models.Province> Provinces { get; set; }
+
+        public System.Data.Entity.DbSet<COMP4976ProvinceCityLab.Models.City> Cities { get; set; }
     }
 }
