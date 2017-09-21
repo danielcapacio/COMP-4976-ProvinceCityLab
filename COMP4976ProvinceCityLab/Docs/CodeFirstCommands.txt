@@ -2,4 +2,4 @@
 
 add-migration -ConfigurationTypeName COMP4976ProvinceCityLab.Migrations.ClientMigrations.Configuration "PInitialCreate"
 
-update-database -ConfigurationTypeName CodeFirstInc.Migrations.ClientMigrations.Configuration
+update-database -ConfigurationTypeName COMP4976ProvinceCityLab.Migrations.ClientMigrations.Configuration
